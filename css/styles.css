@@ -20,11 +20,12 @@
 
 @font-face {
     font-family: "Clear Han Serif";
-    src: url("ClearlHanSerif.woff2") format("woff2"),
-        url("ClearlHanSerif.woff") format("woff");
+    src: url("/fonts/ClearlHanSerif.woff2") format("woff2"),
+        url("/fonts/ClearlHanSerif.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+
 }
 
 :root {
@@ -119,7 +120,8 @@ body {
 }
 
 body {
-  font-family: "Clear Han Serif", "ClearHanSerif", "屏显臻宋", "Newsreader";
+  /*font-family: "Clear Han Serif", "ClearHanSerif", "屏显臻宋", "Newsreader", Serif;*/
+  font-family: "Clear Han Serif", "Newsreader", Serif;
   font-size: var(--font-size-base);
   font-weight: 400;
   line-height: 1.6;
