@@ -19,9 +19,9 @@
 }
 
 @font-face {
-    font-family: 'Clear Han Serif';
-    src: url('ClearlHanSerif.woff2') format('woff2'),
-        url('ClearlHanSerif.woff') format('woff');
+    font-family: "Clear Han Serif";
+    src: url("ClearlHanSerif.woff2") format("woff2"),
+        url("ClearlHanSerif.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
